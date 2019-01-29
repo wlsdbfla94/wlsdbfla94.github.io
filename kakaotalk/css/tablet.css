@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/*reset*/
+.wrap{width:90%;}
+
+/*======sec1==========*/
+.sec1-popup .popup-body{
+    width:90%;
+}
+.sec1 .emo {width:20%;}
+
+
+/*==========at1============*/
+.at1 .wrap .text{width:70%;}
+.at1 .wrap .emo{width:15%; top:50px; right: -20px;}
+.at1 .wrap .icon_style .style_list .box{width:50%;height: 280px;float: left;margin: 0;}
+.at1 .wrap .icon_style .style_list .box a span{font-size: 2em}
+.at1 .wrap .icon_style .style_list .box .pic{right:-20px;}
+.at1 .wrap .icon_style .style_list .box .pic img{width:90%;}
+
+
+/*============at2===========*/
+.at2 .text{width:78%; right:0px;}
+.at2 .wrap .contents .pic{width:90%; float: none; position: static; transform: none; margin: 20px auto;}
+.at2 .wrap  .emo{width:14%; top:21%;}
+.at2 .wrap .contents .text-box{width: 100%;}
+.at2 .wrap .contents .text-box .group{width:33.3%;float: left; }
+.at2 .wrap .contents .text-box .group h4{margin-bottom: 25px; }
+.at2 .wrap .contents .text-box .group p{height:60px;}
+.at2 .wrap .contents .text-box .group a{position: relative;bottom: 0;}
+
+
+
+
+
+/*============at3===========*/
+.at3 .wrap .white{width: 100%;margin-top:200px;}
+.at3 .emo{width:15%;}
+
+
+/*============at4===========*/
+.at4 .wrap .contents{width:100%;}
+.at4 .wrap .contents p.text{margin-bottom: 400px;}
+.at4 .wrap .slide{width:600px; height:1000px; right: -620px;padding: 10px; bottom:0;}
+
+.at4 .wrap .slide.open{animation: open 0.5s; animation-fill-mode:forwards;}
+@keyframes open{
+    0%{right: -620px;}
+    100%{right: 0%;}
+}
+.at4 .wrap .slide.close{animation: close 0.5s; animation-fill-mode:forwards;}
+@keyframes close{
+    0%{right: 0%;}
+    100%{right: -620px;}
+}
+
+
+.at4 .emo{bottom:10%;left:40px;}
+
+
+
+
+/*============sec3===========*/
+
+#sec3 .wrap .pic{width:100%;}
+#sec3 .wrap .text-box{margin-top: 700px;padding: 0;}
+#sec3 .wrap .emo{right: 0;}
+
+
+
+
+
+
+
+/*============sec4===========*/
+
+#sec4 .wrap .slide2{width:50%;margin: 40px auto;  float: none;
+}
+#sec4 .wrap .ani{position: relative; width:100%;
+;height:80px; margin-top: 40px;}
+#sec4 .wrap .ani .ani-box{width:660px;height:80px;
+margin: 0 auto;}
+#sec4 .wrap p{width:100%; margin-top: 40px; text-align: center;}
+
+
+
+
+
+
+
+
+
+
+/*===========인트로===========*/
+#intro .talk .wrap {
+    height:100%;
+}
+#intro .talk .wrap .phone{
+    position: absolute;
+    width:570px;
+    height:790px;
+    background: url(../img/phone.png);
+    bottom: 0;
+    transform: translateX(-50%);
+    left:50%;
+
+}
