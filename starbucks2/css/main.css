@@ -20,7 +20,7 @@
 
 */
 
-
+ 
 
 /*  Fonts  */
 @font-face {
@@ -87,7 +87,7 @@
       position: absolute; bottom:0; width: 100%; background: #fff;
     } 
 
-
+.blind{position: absolute; left:-9999;}
 
 /*  General CSS*/
 .wrapper{
