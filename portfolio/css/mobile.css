@@ -1,0 +1,91 @@
+.wrap{width:100%;}
+body{overflow-x: hidden;}
+/*================================*/
+header{
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+header nav{position: fixed; top:50px;}
+header h1{position:relative; top:10px; left:30px;}
+
+/*================sec1===============*/
+#sec1{height:900px; }
+#sec1 .wrap{height:900px;}
+#sec1 .wrap .pic{width:80%; height:300px; top:100px;}
+#sec1 .wrap h3{ font-size: 4em; top:300px;}
+#sec1 .wrap table{
+    left: 50%; transform: translateX(-50%);
+    width:90%; height:360px; top:460px;
+}
+#sec1 .wrap span{display: none;}
+#sec1 .wrap table th{width:25%;}
+
+/*=================sec2====================*/
+#sec2 .wrap div.frame{top:250px;}
+#sec2 .wrap div.frame>p{width:95%; height:80%; font-size: 14px; line-height: 27px; padding: 50px 10px;}
+#sec2 .wrap div.frame>p strong{font-size: 15px;}
+
+
+/*===========sec3======================*/
+#sec3 .logo{width:120px;}
+#sec3 .gaze{width:100%; height:350px;margin-top: 140px;}
+#sec3 .gaze .skillbar{margin-bottom:20px; height:35px;}
+#sec3 .gaze .skillbar-title{font-size: 12px;}
+#sec3 .gaze .skillbar-title span{padding:0 10px; height:35px;}
+#sec3 .skill-text{margin-top: 0px; height:600px; width:370px; }
+#sec3 .skill-text div{width:185px; height:185px; padding:35px 10px 10px; margin-right: 0; position: relative; }
+#sec3 .skill-text div p{margin-top: 20px; font-size: 0.847em; line-height: 20px;}
+
+/*============sec4===================*/
+#sec4{height:3500px; }
+#sec4 .logo {
+    width:330px;
+}
+#sec4 .contents>div{height:370px;}
+#sec4 .contents>div .port{width:100%;}
+#sec4 .contents>div .port .left{float: none;}
+#sec4 .contents>div .port .right{float: none;}
+#sec4 .contents>div .pic>div{width:100%; }
+#sec4 .contents>div .text >.text-frame{width:100%;
+padding: 20px;
+}
+#sec4 .contents div.contents-t:nth-child(1) .text{position: relative; top:370px;}
+#sec4 .contents div.contents-t:nth-child(1) .pic{position: relative;top:-370px;}
+#sec4 .contents div.contents-t:nth-child(3) .text{position: relative; top:370px;}
+#sec4 .contents div.contents-t:nth-child(3) .pic{position:relative; top:-370px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
