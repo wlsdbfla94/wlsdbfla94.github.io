@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+    <script src="js/youngin.js"></script>
+    <title>용인시 도서관사업소</title>
+</head>
+<body>
+    <header>
+       <div class="wrap">
+       <div class="top">
+           <div class="select">
+                <select>
+                    <option>도서관 바로가기</option>
+					<option>도서관사업소 홈</option>
+					    <optgroup label="처인구">
+							<option>용인중앙도서관</option>
+							<option>디지털정보도서관</option>
+							<option>남사도서관</option>
+							<option>포곡도서관</option>
+							<option>양지해밀도서관</option>
+							<option>모현도서관</option>
+							<option>이동꿈틀도서관</option>
+				        </optgroup>
+						<optgroup label="수지구">
+							<option>수지도서관</option>
+							<option>상현도서관</option>
+							<option>죽전도서관</option>
+					    </optgroup>
+						<optgroup label="기흥구">
+							<option>기흥도서관</option>
+							<option>동백도서관</option>
+							<option>청덕도서관</option>
+							<option>보라도서관</option>
+							<option>흥덕도서관</option>
+							<option>구성도서관</option>
+							<option>구갈희망누리도서관</option>
+						</optgroup>
+							<option>작은도서관</option>
+							<option>독서마라톤</option>
+				</select>
+                <button>이동</button>
+            </div>
+
+            <ul>
+                <li><a href="">홈으로</a></li>
+                <li><a href="">로그인</a></li>
+                <li><a href="">회원가입</a></li>
+                <li><a href="">사이트맵</a></li>
+            </ul>
+        </div>
+        </div>
+        <nav>
+           <div class="wrap">
+                <h1><img src="img/logo.png"></h1>
+                <ul>
+                    <li><a href="">도서관소개
+                        <div class="hide">
+                            <ul class="hide">
+                                  <li>도서관찾기</li>
+                                 <li>연혁</li>
+                                 <li>소장자료</li>
+                                 <li>공공도서관 건립</li>
+                                 <li>도서관 위원회</li>
+                                 <li>조직도/직원정보</li>
+                                 <li>인사말</li>
+                            </ul>
+                        </div>
+                    </a></li>
+                    <li><a href="">이용안내
+                         <div class="hide">
+                             <ul class="hide">
+                               <li>이용시간/휴관일</li>
+                                 <li>회원가입</li>
+                                 <li>대출/반납/예약</li>
+                                 <li>상호대차</li>
+                                 <li>디지털서비스</li>
+                                 <li>모바일 앱</li>
+                             </ul>
+                         </div>
+                    </a></li>
+                    <li><a href="">대표정책
+                         <div class="hide">
+                             <ul class="hide">
+                                 <li>희망도서바로대출제</li>
+                                 <li>독서마라톤</li>
+                                 <li>한 책 하나되는 용인</li>
+                                 <li>스마트도서관</li>
+                                 <li>문학자판기</li>
+                                 <li>작은도서관 지원</li>
+                                 <li>개관시간 연장지원</li>
+                                
+                             </ul>
+                         </div>
+                    </a></li>
+
+                </ul>
+                
+                <div class="search-t">
+                    <div class="search">
+                        <select>
+                            <option value="ALL">전체</option>
+                            <option value="TITLE" selected="selected">도서명</option>
+                            <option value="AUTHOR">저자</option>
+                            <option value="PUBLISHER">출판사</option>
+                            <option value="KEYWORD">키워드</option>
+
+                        </select>
+                        <input type="text" placeholder="도서를 검색해주세요">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="roll">
+                        <ul>
+                            <li>만화</li>
+                            <li>해리포터</li>
+                            <li>유시민</li>
+                            <li>쿠키런</li>
+                            <li>김영하</li>
+                            <li>신과함께</li>
+                            <li>히가시노 게이고</li>
+                        </ul>
+
+                    </div>
+                    <div class="button">
+                         <button id="up" class="prev"><i class="fas fa-caret-up"></i></button>
+                        <button id="down" class="next"><i class="fas fa-caret-down"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="back"></div>
+        </nav>
+        
+    </header>
+<!--    sec1-->
+    <section class="sec1">
+       <div class="wrap">
+            <p>시민 행복과 미래를 이끄는<br>
+                <strong>용인시 도서관사업소</strong>
+            </p>
+            <div class="libwrap">
+               <a href="#prev" class="btnPrev"></a>
+               <a href="#next" class="btnNext"></a>
+               <div class="boxWrap">
+                <ul class="box">
+                    <li class="gh">
+                        <div class="cont">
+                            <h4>기흥구</h4>
+                            <div class="lisbox">
+                                <ul class="tab"> 
+                               
+                                    <li><a href="#libContGh">기흥도서관</a></li>
+                                    <li><a href="#libContDb">동백도서관</a></li>
+                                    <li><a href="#libContCd">청덕도서관</a></li>
+                                    <li><a href="#libContBr">보라도서관</a></li>
+                                    <li><a href="#libContHd">흥덕도서관</a></li>
+                                    <li><a href="#libContGs">구성도서관</a></li>
+                                    <li><a href="#libContGg">구갈희망누리도서관</a></li>
+                                </ul>
+                                <div class="text-box" id="libContGh">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libGh.jpg" alt=""></p> 
+                                        <h5>기흥도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 기흥구 기흥로116번길 10(신갈동 산14)</li>
+                                        <li class="desc"><i></i>휴관일
+                                        <br>- 매월 첫 번째, 세 번째 월요일
+                                        <br>- 1월 1일, 설연휴, 추석연휴
+                                        <br>- 법정공휴일(일요일 제외): 열람실만 개방(09:00 ~ 18:00)</li>
+                                        <li class="time"><i></i>
+                                            자료실
+                                        <br>- 평일 09:00 ~ 22:00
+                                        <br>  (어린이실,디지털자료실 09:00 ~ 18:00)
+                                        <br>- 주말 09:00~ 17:00
+                                        <br>열람실 : 07:00 ~ 24:00
+                                        </li>
+                                        <li class="tel"><i></i> 031-324-4753</li>
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                                <div class="text-box" id="libContDb">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libDb.jpg" alt=""></p> 
+                                        <h5>동백도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 기흥구 동백3로 80(중동 921)</li>
+                                        <li class="desc"><i></i>휴관일
+                                        <br>- 매월 두 번째, 네 번째 월요일
+                                        <br>- 명절(신정, 설연휴, 추석연휴)
+                                        <br>- 법정공휴일(일요일 제외): 열람실만 개방(09:00 ~ 18:00)</li>
+                                        <li class="time"><i></i>
+                                            자료실
+                                        <br>- 평일 09:00~22:00
+                                        <br>  (어린이자료실,디지털자료실 09:00~18:00)
+                                        <br>- 주말 09:00~17:00
+                                        <br>열람실/노트북실 :  07:00~24:00
+                                        <br>- 공휴일 09:00~18:00
+                                        </li>
+								<li class="tel"><i></i> 031-324-4651</li>
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                                <div class="text-box" id="libContCd">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libCd.jpg" alt=""></p> 
+                                        <h5>청덕도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 기흥구 구성1로 44(청덕동 549)</li>
+                                        <li class="desc"><i></i>휴관일
+                                        <br>- 매월 두 번째, 네 번째 월요일
+                                        <br>- 1월 1일, 설연휴, 추석연휴
+                                        <br>- 법정공휴일(일요일 제외)</li>
+                                        <li class="time"><i></i>
+                                            자료실
+                                        <br>- 평일 09:00 ~ 22:00
+                                        <br> (어린이실,디지털자료실 09:00 ~ 18:00)
+                                        <br>- 주말 09:00~ 17:00
+                                        <br>디지털자료실 내 노트북실 : 09:00 ~ 22:00
+                                        </li>
+                                        <li class="tel"><i></i> 031-284-1763</li>
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                                <div class="text-box" id="libContBr">
+                                   <div class="title">
+                                         <p><img src="img/img_thumb_libBr.jpg" alt=""></p> 
+                                        <h5>보라도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 기흥구 한보라2로 116(보라동 619)</li>
+                                        <li class="desc"><i></i>휴관일
+                                        <br>- 매월 두 번째, 네 번째 월요일
+                                        <br>- 1월 1일, 설연휴, 추석연휴
+                                        <br>-법정공휴일(일요일 제외): 열람실만 개방(09:00 ~ 18:00)</li>
+                                        <li class="time"><i></i>
+                                            자료실
+                                        <br>- 평일 09:00 ~ 22:00
+                                        <br>  (어린이실,디지털자료실 09:00 ~ 18:00)
+                                        <br>- 주말 09:00~ 17:00
+                                        <br>열람실 : 07:00 ~ 24:00
+                                        </li>
+                                        <li class="tel"><i></i> 031-324-4331</li>
+                                    </ul>
+                                    <p class="btn"></p> 
+                                </div>
+                                <div class="text-box" id="libContHd">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libHd.jpg" alt=""></p> 
+                                        <h5>흥덕도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 기흥구 흥덕중앙로 153(영덕동 1235)</li>
+								        <li class="desc"><i></i>휴관일
+                                        <br>- 매월 두 번째, 네 번째 월요일
+                                        <br>- 1월 1일, 설연휴, 추석연휴
+                                        <br>- 법정공휴일(일요일 제외): 열람실,노트북실만 개방(09:00 ~ 18:00)</li>
+								        <li class="time"><i></i>
+									        자료실
+                                        <br>- 평일 09:00~22:00
+                                        <br>  (어린이실 09:00~18:00)
+                                        <br>- 주말 09:00~17:00
+                                        <br>열람실  07:00~24:00 
+                                        <br>노트북실 - 09:00~22:00 
+                                        <br>
+								    </li>
+								<li class="tel"><i></i> 031-324-4141</li>
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                                <div class="text-box" id="libContGs">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libGs.jpg" alt=""></p> 
+                                        <h5>구성도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 기흥구 구성로77번길 17(언남동 342-1)</li>
+								        <li class="desc"><i></i>휴관일
+                                        <br>- 매월 첫 번째, 세 번째 월요일
+                                        <br>- 1월 1일, 설연휴, 추석연휴
+                                        <br>- 법정공휴일(일요일 제외): 열람실만 개방(09:00 ~ 18:00)</li>
+								        <li class="time"><i></i>
+									    자료실
+                                        <br>- 평일 09:00 ~ 22:00
+                                        <br>  (어린이실,디지털자료실 09:00 ~ 18:00)
+                                        <br>- 주말 09:00~ 17:00
+                                        <br>열람실 : 07:00 ~ 24:00
+								        </li>
+								<li class="tel"><i></i> 031-324-4131</li>
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                                <div class="text-box" id="libContGg">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libGg.jpg" alt=""></p> 
+                                        <h5>구갈희망누리도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 기흥구 갈곡로12번길 1 (구갈동 598)</li>
+								        <li class="desc"><i></i>휴관일
+                                        <br>- 매주 일요일
+                                        <br>- 1월 1일, 설연휴, 추석연휴
+                                        <br>- 법정공휴일</li>
+								        <li class="time"><i></i>
+									        자료실
+                                        <br>- 평일 09:00 ~ 18:00, 주말 09:00~ 17:00
+								        </li>
+								        <li class="tel"><i></i> 031-324-6561</li>
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ci on">
+                        <div class="cont">
+                            <h4>처인구</h4>
+                            <div class="lisbox">
+                                <ul class="tab">
+                                 <li class="on"><a href="#libContJa">용인중앙도서관</a></li>
+                                 <li><a href="#libContDi">디지털정보도서관</a></li>
+                                 <li><a href="#libContNs">남사도서관</a></li>
+                                 <li><a href="#libContPg">포곡도서관</a></li>
+                                 <li><a href="#libContYh">양지해밀도서관</a></li>
+                                 <li><a href="#libContMh">모현도서관</a></li>
+                                 <li><a href="#libContIg">이동꿈틀도서관</a></li>
+                                </ul>
+                                <div class="text-box" id="libContJa">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libJa.jpg" alt=""></p> 
+                                        <h5>용인중앙도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 처인구 명지로 27(역북동 504-1)</li>
+                                        <li class="desc"><i></i>휴관일
+                                            <br>- 매월 두 번째, 네 번째 월요일
+                                            <br>- 1월 1일, 설연휴, 추석연휴
+                                            <br>- 법정공휴일(일요일 제외): 열람실만 개방(09:00 ~ 18:00)</li>
+                                            <li class="time"><i></i>
+                                                자료실
+                                            <br>- 평일 09:00 ~ 22:00
+                                            <br>  (참고자료실,디지털자료실,어린이자료실 
+                                            <br>   09:00 ~ 18:00)
+                                            <br>- 주말 09:00~ 17:00
+                                            <br>열람실 : 07:00 ~ 24:00
+                                        </li>
+                                        <li class="tel"><i></i> 031-324-4610</li>
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                                <div class="text-box" id="libContDi">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libDi.jpg" alt=""></p> 
+                                        <h5>디지털정보도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 처인구 중부대로 1199(삼가동 556)</li>
+                                        <li class="desc"><i></i>휴관일
+                                        <br>- 매월 두 번째, 네 번째 월요일
+                                        <br>- 1월 1일, 설연휴, 추석연휴, 
+                                        <br>- 법정공휴일(일요일 제외)</li>
+                                        <li class="time"><i></i>
+                                            자료실
+                                        <br>- 평일 09:00 ~ 18:00, 주말 09:00~ 17:00
+                                        </li>
+                                        <li class="tel"><i></i> 031-324-4621</li>
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                                <div class="text-box" id="libContNs">
+                                   <div class="title">
+                                         <p><img src="img/img_thumb_libNs.jpg" alt=""></p> 
+                                        <h5>남사도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 처인구 남사면 한숲로 61(아곡리 681-1)</li>
+                                        <li class="desc"><i></i>휴관일
+                                        <br>- 매월 첫 번째, 세 번째 월요일
+                                        <br>- 1월 1일, 설연휴, 추석연휴
+                                        <br>- 법정공휴일(일요일 제외)</li>
+                                        <li class="time"><i></i>
+                                            자료실
+                                        <br>- 평일 09:00 ~ 22:00
+                                        <br>  (어린이실 09:00 ~ 18:00)      
+                                        <br>- 주말 09:00~ 17:00
+                                        <br>디지털열람석 : 09:00 ~ 22:00
+                                        </li>
+                                        <li class="tel"><i></i> 031-324-4735</li>
+                                    </ul>
+                                    <p class="btn"></p> 
+                                </div>
+                                <div class="text-box on" id="libContPg">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libPg.jpg" alt=""></p> 
+                                        <h5>포곡도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 처인구 포곡읍 포곡로278번길 8(삼계리 556-2)</li>
+                                        <li class="desc"><i></i>휴관일
+                                        <br>- 매월 첫 번째, 세 번째 월요일
+                                        <br>- 1월 1일, 설연휴, 추석연휴
+                                        <br>- 법정공휴일(일요일 제외): 열람실만 개방(09:00 ~ 18:00)</li>
+                                        <li class="time"><i></i>
+                                            자료실
+                                        <br>- 평일 09:00 ~ 22:00 
+                                        <br> (어린이실,디지털자료실 09:00 ~ 18:00)
+                                        <br>- 주말 09:00~ 17:00
+                                        <br>열람실 : 07:00 ~ 22:00
+                                        </li>
+								        <li class="tel"><i></i> 031-324-4631~2</li>
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                                <div class="text-box" id="libContYh">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libYh.jpg" alt=""></p> 
+                                        <h5>양지해밀도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 처인구 양지면 교동로18번길 8(양지리 364-1)</li>
+                                        <li class="desc"><i></i>휴관일
+                                        <br>- 자료실 : 매주 월요일, 법정공휴일
+                                        <br>- 공부방 : 매주 일요일, 법정공휴일</li>
+                                        <li class="time"><i></i>
+                                            자료실
+                                        <br>- 평일 09:00 ~ 18:00, 주말 09:00 ~ 17:00
+                                        <br>공부방
+                                        <br>- 월요일 18:00 ~ 23:00
+                                        <br>- 화~토요일 09:00 ~ 23:00
+								        </li>
+								        <li class="tel"><i></i> 031-324-4625</li>
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                                <div class="text-box" id="libContMh">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libMh.jpg" alt=""></p> 
+                                        <h5>모현도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 처인구 모현읍 백옥대로 2378(왕산리 804-3)</li>
+                                        <li class="desc"><i></i>휴관일
+                                        <br>- 매월 두 번째, 네 번째 월요일
+                                        <br>- 1월 1일, 설연휴, 추석연휴
+                                        <br>- 법정공휴일(일요일 제외): 열람실만 개방(09:00 ~ 18:00)</li>
+                                        <li class="time"><i></i>
+                                            자료실
+                                        <br>- 평일 09:00 ~ 22:00 
+                                        <br>  (어린이실,디지털자료실 09:00 ~ 18:00)
+                                        <br>- 주말 09:00~ 17:00
+                                        <br>열람실 : 07:00 ~ 22:00
+                                        </li>
+                                        <li class="tel"><i></i> 031-324-4351</li>
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                                <div class="text-box" id="libContIg">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libIg.jpg" alt=""></p> 
+                                        <h5>이동꿈틀도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 처인구 이동읍 경기동로 705번길 16(송전리 1228-1)</li>
+                                        <li class="desc"><i></i>휴관일
+                                        <br>- 매주 월요일
+                                        <br>- 1월 1일, 설연휴, 추석연휴
+                                        <br>- 법정공휴일</li>
+                                        <li class="time"><i></i>
+                                            자료실
+                                        <br>- 평일 09:00 ~ 18:00, 주말 09:00~ 17:00
+                                        <br>열람실 : 09:00 ~ 22:00
+                                        </li>
+                                        <li class="tel"><i></i> 031-324-4660</li>
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sj">
+                        <div class="cont">
+                            <h4>수지구</h4>
+                            <div class="lisbox">
+                                <ul class="tab">
+                                    <li><a href="#libContSj">수지도서관</a></li>
+                                    <li><a href="#libContSh">상현도서관</a></li>
+                                    <li><a href="#libContJj">죽전도서관</a></li>
+                                </ul>
+                                <div class="text-box" id="libContSj">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libSj.jpg" alt=""></p> 
+                                        <h5>수지도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 수지구 문정로7번길 23(풍덕천동 1088)</li>
+								        <li class="desc"><i></i>휴관일
+                                        <br>- 매월 두 번째, 네 번째 월요일
+                                        <br>- 1월 1일, 설연휴, 추석연휴
+                                        <br>- 법정공휴일(일요일 제외): 열람실만 개방(09:00 ~ 18:00)</li>
+								        <li class="time"><i></i>
+									    자료실
+                                        <br>- 평일 09:00 ~ 22:00
+                                        <br>(어린이실,디지털자료실 09:00 ~ 18:00)
+                                        <br>-주말  09:00~17:00
+                                        <br>열람실, 노트북실 : 07:00 ~ 24:00
+								        </li>
+								<li class="tel"><i></i> 031-324-8971</li>
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                                <div class="text-box" id="libContSh">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libSh.jpg" alt=""></p> 
+                                        <h5>상현도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 수지구 법조로 232(상현동 1129-2)</li>
+								        <li class="desc"><i></i>휴관일
+                                        <br>- 매월 첫 번째, 세 번째 월요일
+                                        <br>- 1월 1일, 설연휴, 추석연휴
+                                        <br>- 법정공휴일(일요일 제외): 열람실만 개방(09:00 ~ 18:00)</li>
+								        <li class="time"><i></i>
+									        자료실
+                                        <br>- 평일 09:00 ~ 22:00
+                                        <br>  (유아,어린이실 09:00 ~ 18:00)
+                                        <br>- 주말 09:00~ 17:00
+                                        <br>열람실, 노트북실 : 07:00 ~ 24:00
+								        </li>
+								<li class="tel"><i></i> 031-324-4121</li>
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                                <div class="text-box" id="libContJj">
+                                    <div class="title">
+                                         <p><img src="img/img_thumb_libJj.jpg" alt=""></p> 
+                                        <h5>죽전도서관</h5>
+                                    </div>
+                                    <ul class="info">
+                                        <li class="loc"><i></i>경기도 용인시 수지구 대지로 89(죽전동 1212)</li>
+								        <li class="desc"><i></i>휴관일
+                                        <br>- 매월 첫 번째, 세 번째 월요일
+                                        <br>- 1월 1일, 설연휴, 추석연휴
+                                        <br>- 법정공휴일(일요일 제외): 열람실만 개방(09:00 ~ 18:00)</li>
+								        <li class="time"><i></i>
+									        자료실
+                                        <br>-  평일 09:00 ~ 22:00
+                                        <br>   (어린이실,디지털자료실 09:00 ~18:00)
+                                        <br>- 주말 09:00~ 17:00
+                                        <br>열람실 : 07:00 ~ 24:00
+								        </li>
+								<li class="tel"><i></i> 031-324-4641~3</li>
+							
+                                    </ul>
+                                    <p class="btn"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+<!--    /sec1-->
+
+<!--sec2-->
+    <section class="sec2">
+       <div class="wrap">
+        <article>
+                <div class="box popup">
+                    <h4>팝업존</h4>
+                    <div class="control">
+                        <button id="prev" class="prev"></button>
+                        <p class="pas">
+                            <a href="" class="pause" ></a>
+                            <a href="" class="play" style="display: none;"></a>
+                        </p>
+                        <button id="next" class="next"></button>
+                        <p class="page">
+                            <span class="current">1</span>/<span class="total"></span>
+                        </p>
+                    </div>
+                    <div class="cont">
+                       <ul>
+                            <li data-page="1"><img src="img/14100_1_20190111140856036.jpg" alt=""></li>
+                           <li data-page="2"><img src="img/14180_1_20190122135935683.jpg" alt=""></li> 
+                           
+                       </ul>
+                    </div>
+                </div>
+                <div class="box fas">
+                    <h4>
+                        <a href="">도서관소식</a>
+                        <a href="">문화행사</a>
+                    </h4>
+                    <div class="cont">
+                        <ul>
+                            <li><i style="background: #3784f0;">청덕</i><a href="">[청덕] 문화가 있는 토요일 &lt;셋토. 공연보기 좋은 날&gt; 2월 공연 안내</a><span>02/13</span></li>
+                            <li><i style="background: #a22b2b;">포곡</i><a href="">[포곡]포곡도서관 「야간대출서비스」 종료 안내</a><span>02/12</span></li>
+                            <li><i style="background: #a22b2b;">포곡</i><a href="">[포곡](문화가 있는 날)초등역사특강 - 우리역사 3·1절 강좌 운영 안내</a><span>02/12</span></li>
+                            <li><i style="background: #92278f;">상현</i><a href="">[상현] 재능기부 프로그램 「영어 독서동아리」 수강생 모집 안내</a><span>02/12</span></li>
+                            <li><i style="background: #a22b2b;">포곡</i><a href="">포곡도서관 2019년 3월 일반인 자원봉사 신청 안내</a><span>02/12</span></li>
+                            <li><i style="background: #a22b2b;">포곡</i><a href="">포곡도서관 2019년 3월 청소년 자원봉사 신청 안내</a><span>02/12</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box sns">
+                    <h4>SNS 정보보기</h4>
+                    <ul class="snsT">
+                        <li class="blog" ><a href="" class="on" ></a></li>
+                        <li class="facebook"><a href="" ></a></li>
+                    </ul>
+                    <div class="cont">
+                        <div id="view1" class="blog-w view">
+                           <div class="blog-t">
+                            <ul class="blog-ul">
+                                <li>
+                                    
+                                    <p class="title">[수지] 2019년도 상반기 실전 동화구연 교실 수강생 모집</p>
+                                    <p class="text">수지도서관 자원봉사자이자 동화구연 전문가이신 이금옥 선생님이 지도하는 실전 동화구연 강좌입니다. 일시 : 2019. 3. 5.(화) ~ 2019. 6. 25. (매주 화 10:00~13:00) 장소 : 수지도서관 2층 시청각실 대상 : 동화구연 지도에 관심있는 누구나 40명 (고졸이상) 문의 : 수지도서관 031-324-8971 참여방법 : 2.22.(금) 오전 10시부터 도서관 홈페이지 선착순 사전접수 홈페이지 로그인 - 문화행사신청(접수) / 전화 및 방문접수 ☞ 신청페이지로 바로가기(클릭) </p>
+                                    <p class="date">2019.02.11 11:20 </p>
+                                    
+                                </li>
+                                <li>
+                                    
+                                    <p class="title">[중앙] 우리동네 독립운동 이야기 운영 안내(3.1운동 및 임시정부수립 100주년 기념)</p>
+                                    <p class="text">- 3.1운동 및 대한민국 임시정부 수립 100주년 기념 -용인중앙도서관 「우리 동네 독립운동 이야기」 운영 안내용인중앙도서관에서는 올해 3.1운동 및 대한민국 임시정부 수립 100주년을 맞아용인의 향토역사를 이해하며 우리의 독립운동 정신을 되새기고자 문화강좌를 마련하였습니다.우리 동네에서는 과연 독립운동이 어떻게 일어났을지 그 독립운동의 유적지는 과연 어디에 있는지 등숨겨진 우리 동네 역사 이야기를 나누는 뜻 깊은 시간을 나누었으면 합니다.우리 자녀들과 함께 들으셔도 정말 좋은 시간이 될 것입니다.관심있는 분들의 많은 참여를 기다립니다.세부 내용은 강의계획서를 확인하세요~!!★ 신청하러가기 </p>
+                                    <p class="date">2019.02.08 10:02 </p>
+                                </li>
+                                <li>
+                                    
+                                    <p class="title">「3.1 운동 100주년」 기념 특별추천도서</p>
+                                    <p class="text">● 「3.1 운동 100주년 」 기념 특별 추천도서</p>
+                                    <p class="date">2019.02.01 09:52 </p>
+                                </li>
+                                <li>
+                                    
+                                    <p class="title">2월 용인시 도서관 사서 추천도서 목록</p>
+                                    <p class="text">● 용인시 도서관 사서가 추천하는 2월 추천도서목록 입니다. 이달의 주제는 '마음을 단단하게 해 주는 책' 입니다. * 총32권(일반주제, 도서관특화, 아동도서)</p>
+                                    <p class="date">2019.02.01 09:49 </p>
+                                </li>
+                                <li>
+                                    
+                                    <p class="title">용인시 2019년 희망도서 바로대출제를 알려드립니다!</p>
+                                    <p class="text">용인 희망도서 바로대출제를 알려드립니다!읽고 싶은 책을 서점에서도 빌릴 수 있는용인 희망도서 바로대출제라고 들어보셨나요?귀가 솔깃해지는 용인 희망도서 바로대출제를 소개합니다:)읽고 싶은 새 책 서점에서도 빌려드립니다!용인 희망도서 바로대출제.희망도서 바로대출 서비스용인시 도서관 회원이라면 누구나 보고 싶은 책을 도서관이 아닌 서점에서 바로 빌려보고 서점으로 반납하는 희망도서 바로대출 서비스가 2월1일부터 오픈 됩니다.희망도서 바로대출제 이용방법1) 용인시 도서관 회원으로 가입 (홈페이지 회원가입 후 도서관 방문해 회원증 발급받은 정회원) 2) 도서관 홈페이지에서 ‘희망도서 바.......</p>
+                                    <p class="date">2019.01.31 10:41 </p>
+                                </li>
+                            </ul>
+                            </div>
+                        </div>
+                        <div id="view2" class="facebook-w view">
+                            <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/yonginlib" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-width="500" data-height="178" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=271&amp;height=178&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fyonginlib&amp;locale=ko_KR&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline&amp;width=500"><span style="vertical-align: bottom; width: 271px; height: 178px;"><iframe name="f4804890b19f7c" width="500px" height="178px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v3.2/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fvy-MhgbfL4v.js%3Fversion%3D44%23cb%3Dff57ca08384968%26domain%3Dlib.yongin.go.kr%26origin%3Dhttps%253A%252F%252Flib.yongin.go.kr%252Ff2f67e17d73d27c%26relation%3Dparent.parent&amp;container_width=271&amp;height=178&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fyonginlib&amp;locale=ko_KR&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline&amp;width=500" style="border: none; visibility: visible; width: 271px; height: 178px;" class=""></iframe></span></div>
+                        </div>
+                    </div>
+                </div>
+        </article>
+        <article class="long">
+           <h3>도서관정책</h3>
+            <ul>
+                <li><a href=""><i></i>희망도서바로대출제</a></li>
+                <li><a href=""><i></i>독서마라톤</a></li>
+                <li><a href=""><i></i>북스타트</a></li>
+                <li><a href=""><i></i>한 책 하나되는 용인</a></li>
+                <li><a href=""><i></i>전자책</a></li>
+                <li><a href=""><i></i>스마트도서관</a></li>
+                <li><a href=""><i></i>문학자판기</a></li>
+                <li><a href=""><i></i>작은도서관</a></li>
+            </ul>
+        </article>
+        </div>
+    </section>
+<!--    /sec2-->
+<!--    sec3-->
+    <section class="sec3">
+        <div class="wrap">
+            <ul class="list">
+                <li class="on" onclick="func(1);"><a href="">추천도서</a></li>
+                <li onclick="func(2);"><a href="">대출베스트</a></li>
+                <li onclick="func(3);"><a href="">신착도서</a></li>
+                <li onclick="func(4);"><a href="">공공도서관 인기도서</a></li>
+            </ul>
+            <ol id="ol1">
+                <li><a href=""><i>1</i><img src="img/13453490.jpg" alt=""></a></li>
+                <li><a href=""><i>2</i><img src="img/14861__20190203111642832.png" alt=""></a></li>
+                <li><a href=""><i>3</i><img src="img/14860__20190203111345777.jpg" alt=""></a></li>
+                <li><a href=""><i>4</i><img src="img/14807__20190201094346400.jpg" alt=""></a></li>
+                <li><a href=""><i>5</i><img src="img/14805__20190201094059425.jpg" alt=""></a></li>
+            </ol>
+            <ol id="ol2">
+                <li><a href=""><i>1</i><img src="img/noimg4.png" alt=""></a></li>
+                <li><a href=""><i>2</i><img src="img/06247565.jpg" alt=""></a></li>
+                <li><a href=""><i>3</i><img src="img/13278497.jpg" alt=""></a></li>
+                <li><a href=""><i>4</i><img src="img/13513128.jpg" alt=""></a></li>
+                <li><a href=""><i>5</i><img src="img/07166185.jpg" alt=""></a></li>
+            </ol>
+            <ol id="ol3">
+                <li><a href=""><i>1</i><img src="img/noimg0.png" alt=""></a></li>
+                <li><a href=""><i>2</i><img src="img/noimg0.png" alt=""></a></li>
+                <li><a href=""><i>3</i><img src="img/noimg0.png" alt=""></a></li>
+                <li><a href=""><i>4</i><img src="img/noimg0.png" alt=""></a></li>
+                <li><a href=""><i>5</i><img src="img/noimg0.png" alt=""></a></li>
+            </ol>
+            <ol id="ol4">
+                <li><a href=""><i>1</i><img src="img/11211133.jpg" alt=""></a></li>
+                <li><a href=""><i>2</i><img src="img/k622533431_1.jpg" alt=""></a></li>
+                <li><a href=""><i>3</i><img src="img/k742532452_1.jpg" alt=""></a></li>
+                <li><a href=""><i>4</i><img src="img/03309417.jpg" alt=""></a></li>
+                <li><a href=""><i>5</i><img src="img/k962533360_1.jpg" alt=""></a></li>
+            </ol>
+
+        </div>
+    </section>
+<!--    /sec3-->
+    <footer>
+        <div class="wrap">
+            <ul>
+                <li><a href="">개인정보처리방침</a></li>
+                <li><a href="">이용약관</a></li>
+            </ul>
+            <div class="family">
+                <select>
+                    <option>관련사이트 바로가기</option>
+                    <option>용인시청</option>
+                    <option>처인구청</option>
+                    <option>기흥구청</option>
+                    <option>수지구청</option>
+                    <option>용인시보건소</option>
+                    <option>첨단교통센터</option>
+                    <option>상하수도사업소</option>
+                    <option>평생학습센터</option>
+                    <option>여성회관</option>
+                    <option>용인시의회</option>
+                    <option>농업기술센터</option>
+                    <option>용인시 세금납부</option>
+                    <option>용인스마트시티</option>
+                    <option>용인통계</option>
+                    <option>용인SNS톡</option>
+                    <option>용인라이브</option>
+                    <option>용인시 포토 갤러리</option>
+
+                </select>
+                <button>GO</button>
+                
+            </div>
+             <span class="fixTop"></span>
+            <div class="add-wrap">
+                <div class="add">
+                    <ul>
+                        <li>용인시 도서관사업소</li>
+                        <li>(우:13514) 경기도 용인시 처인구 명지로27(역북동 504-1)</li>
+                        <li>민원안내콜센터 : 1577-1122</li>
+                    </ul>
+                </div>
+                <div class="copy">Copyright ⓒ Yongin City Library. All Rights Reserved.</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
