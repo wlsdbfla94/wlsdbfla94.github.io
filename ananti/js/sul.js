@@ -177,24 +177,24 @@ $(function () {
 var timer = setInterval("show()", 3000);
 var showing, nexting;
 
-// function show()
-//
-// {
-//     $("#at1 ul").stop().animate({
-//         "marginLeft": "-=1900px"
-//     }, function () {
-//         $("#at1 ul li:first").appendTo("#at1 ul");
-//         $("#at1 ul").css("marginLeft", "0%");
-//
-//         $("#at3_ul").stop().animate({
-//             "marginLeft": "-=500px"
-//         }, function () {
-//             $("#at3_ul li:first").appendTo("#at3_ul");
-//             $("#at3_ul").css("marginLeft", "0px");
-//         });
-//     });
-//
-// }
+function show()
+
+{
+    // $("#at1 ul").stop().animate({
+    //     "marginLeft": "-=1900px"
+    // }, function () {
+    //     $("#at1 ul li:first").appendTo("#at1 ul");
+    //     $("#at1 ul").css("marginLeft", "0%");
+
+        $("#at3_ul").stop().animate({
+            "marginLeft": "-=500px"
+        }, function () {
+            $("#at3_ul li:first").appendTo("#at3_ul");
+            $("#at3_ul").css("marginLeft", "0px");
+        });
+    });
+
+}
 
 var swiper = new Swiper('.swiper-container', {
      spaceBetween: 30,
@@ -203,7 +203,7 @@ var swiper = new Swiper('.swiper-container', {
        delay: 2500,
        disableOnInteraction: false,
      },
-    
+
 
    });
 
