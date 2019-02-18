@@ -167,11 +167,11 @@ header ul#h_bot li:nth-child(2)
     z-index: 1;
     overflow: hidden;
 }
-.swiper-container {
+#sec1 .swiper-container {
      width: 100%;
      height: 100%;
    }
-   .swiper-slide {
+  #sec1 .swiper-slide {
      text-align: center;
      font-size: 18px;
      background: #fff;

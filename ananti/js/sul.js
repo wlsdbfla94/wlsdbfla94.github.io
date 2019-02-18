@@ -196,7 +196,7 @@ function show()
 
 }
 
-var swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('#sec1 .swiper-container', {
      spaceBetween: 30,
      centeredSlides: true,
      autoplay: {
