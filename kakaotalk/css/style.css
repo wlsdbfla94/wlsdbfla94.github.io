@@ -10,7 +10,7 @@ li{list-style: none;}
 a{text-decoration: none;}
 body{font-family: 'Nanum Gothic', sans-serif;}
 button{outline: none; cursor: pointer;}
-.wrap{width:80%; height: auto; margin:0 auto; position: relative;  }
+.wrap{max-width:1600px; height: auto; margin:0 auto; position: relative;  }
 .blind{font-size: 0; position: absolute; left:-9999px;}
 .wrap h3{font-size: 2em; font-weight: bold; font-family: 'Noto Sans KR', sans-serif; color:#3a1d1c; padding-top: 80px;}
 
