@@ -12,8 +12,8 @@ function func(js) {
     sec11.style.display = "none";
     sec12.style.display = "none";
     sec13.style.display = "none";
-    sec14.style.display = "none"; 
-   
+    sec14.style.display = "none";
+
 
     switch (js) {
         case 1:
@@ -58,7 +58,7 @@ function func(js) {
         case 14:
             sec13.style.display = "block";
             break;
-       
+
     }
 }
 function funcs(js)
@@ -71,7 +71,7 @@ function funcs(js)
         {
              case 1:
             at23.style.display = "block";
-            break; 
+            break;
                 case 2:
             at24.style.display = "block";
             break;
@@ -177,24 +177,35 @@ $(function () {
 var timer = setInterval("show()", 3000);
 var showing, nexting;
 
-function show()
+// function show()
+//
+// {
+//     $("#at1 ul").stop().animate({
+//         "marginLeft": "-=1900px"
+//     }, function () {
+//         $("#at1 ul li:first").appendTo("#at1 ul");
+//         $("#at1 ul").css("marginLeft", "0%");
+//
+//         $("#at3_ul").stop().animate({
+//             "marginLeft": "-=500px"
+//         }, function () {
+//             $("#at3_ul li:first").appendTo("#at3_ul");
+//             $("#at3_ul").css("marginLeft", "0px");
+//         });
+//     });
+//
+// }
 
-{
-    $("#at1 ul").stop().animate({
-        "marginLeft": "-=1900px"
-    }, function () {
-        $("#at1 ul li:first").appendTo("#at1 ul");
-        $("#at1 ul").css("marginLeft", "0%");
+var swiper = new Swiper('.swiper-container', {
+     spaceBetween: 30,
+     centeredSlides: true,
+     autoplay: {
+       delay: 2500,
+       disableOnInteraction: false,
+     },
+    
 
-        $("#at3_ul").stop().animate({
-            "marginLeft": "-=500px"
-        }, function () {
-            $("#at3_ul li:first").appendTo("#at3_ul");
-            $("#at3_ul").css("marginLeft", "0px");
-        });
-    });
-
-}
+   });
 
 $(function () {
     $("#at3_ul").hover(function () {
@@ -564,7 +575,7 @@ var count=0;
 $(function(){
     $(".at16_img").hide();
     $("#at16_pic1").show();
-    
+
 });
 function at16()
 {
@@ -576,7 +587,7 @@ function at16()
     count++;
     $("#at16_pic"+(count-1)).css("zIndex","0").fadeOut();
     $("#at16_pic"+(count)).css("zIndex","1").fadeIn();
-    
+
 }
 
 $(function () {
@@ -628,7 +639,7 @@ $(function () {
     $(".at17_p span").on("click",function(){
         $("html,body").stop().animate({"scrollTop":1500});
     });
-    
+
 
 });
 
@@ -674,7 +685,7 @@ $(function(){
     $(".at17_p span").on("click",function(){
         var spo = $(this).attr("id");
         spo=spo.substr(6,1);
-       
+
         $("#at18_p1").html(at18_t1A[spo]);
         $("#at18_p2").html(at18_t2A[spo]);
         $("#at18_tab").html(at18_t3A[spo]);
@@ -699,9 +710,9 @@ $(function(){
             var sspo=$(this).attr("id");
             sspo=sspo.substr(6,1);
        $("html,body").stop().animate({"scrollTop":at19A[sspo]});
-          
+
             });
-        
+
     });
       $("#sec7_t").on("click",function(){
         $("html,body").stop().animate({"scrollTop":0});
@@ -715,7 +726,7 @@ $(function(){
          $(this).removeClass("sca");
     });
 });
- 
+
 $(function(){
    var ho
       $("#sec8_p ul li").hover(function(){
@@ -730,7 +741,7 @@ $(function(){
         $(this).css("background"," #d09639").css("color","white");
     });
 });
- 
+
 $(function(){
     $(window).scroll(function(){
     var po = $(window).scrollTop();
@@ -798,103 +809,3 @@ $(function(){
             }
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
