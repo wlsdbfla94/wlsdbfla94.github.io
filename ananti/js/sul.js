@@ -196,8 +196,6 @@ function show()
 
 }
 
-
-
 $(function () {
     $("#at3_ul").hover(function () {
         clearInterval(timer);
