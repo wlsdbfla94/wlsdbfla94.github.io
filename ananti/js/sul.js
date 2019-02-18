@@ -186,13 +186,13 @@ function show()
     //     $("#at1 ul li:first").appendTo("#at1 ul");
     //     $("#at1 ul").css("marginLeft", "0%");
 
-        $("#at3_ul").stop().animate({
-            "marginLeft": "-=500px"
-        }, function () {
-            $("#at3_ul li:first").appendTo("#at3_ul");
-            $("#at3_ul").css("marginLeft", "0px");
-        });
-    });
+    //     $("#at3_ul").stop().animate({
+    //         "marginLeft": "-=500px"
+    //     }, function () {
+    //         $("#at3_ul li:first").appendTo("#at3_ul");
+    //         $("#at3_ul").css("marginLeft", "0px");
+    //     });
+    // });
 
 }
 
